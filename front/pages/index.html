@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portal de Empregos - FastJobNet</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 15px;
+      background: #f9f9f9;
+      color: #222;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .vaga {
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .vaga h3 {
+      margin-top: 0;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    input[type="text"],
+    input[type="email"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 4px;
+      margin-bottom: 16px;
+      border-radius: 4px;
+      border: 1px solid #999;
+      box-sizing: border-box;
+      font-size: 14px;
+      font-family: inherit;
+    }
+    button {
+      background-color: #27ae60;
+      border: none;
+      padding: 1vw 2vw;
+      color: white;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #1ec764;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 10px;
+      }
+      form {
+        max-width: 100%;
+      }
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 30px;
+      font-weight: 700;
+    }
+
+    #lista-vagas {
+      max-width: 900px;
+      margin: 0 auto;
+      list-style: none;
+      padding: 0;
+    }
+
+    #lista-vagas li {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 15px;
+      transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      cursor: pointer;
+    }
+
+    #lista-vagas li:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+
+    .titulo {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #34495e;
+      margin-bottom: 6px;
+    }
+
+    .empresa-local {
+      font-size: 0.95rem;
+      color: #7f8c8d;
+      margin-bottom: 12px;
+    }
+
+    .descricao {
+      font-size: 1rem;
+      margin-bottom: 10px;
+      line-height: 1.4;
+      color: #555;
+    }
+
+    .salario-tipo {
+      font-weight: 600;
+      color: #27ae60;
+      font-size: 1rem;
+    }
+
+    #candidatura {
+        display: flex-box;
+        width: 100%;
+    }
+
+    #mensagem {
+        max-width: 100%;
+        min-width: 100%;
+        min-height: 10vh;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>FastJobNet</h1>
+    <p>Encontre sua oportunidade e faça parte do nosso mundo!</p>
+  </header>
+
+  <h2 style="display: flex; align-self: center; justify-content: center;">Candidate-se a uma vaga</h2>
+
+  <section id="candidatura">
+    <form id="form-candidatura">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="vaga">Vaga:</label>
+      <select id="vaga" name="vaga" required>
+        <option value="">-- Selecione uma vaga --</option>
+      </select>
+
+      <label for="mensagem">Mensagem para o contratante:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva uma breve mensagem para a vaga"></textarea>
+      
+      <button type="submit">Enviar Candidatura</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Vagas Disponíveis</h2>
+    <ul id="lista-vagas"></ul>
+    <div style="display: inline-flex; width: 100%;">
+        <button id="botao-anterior" style="margin-right: auto;">Vagas Anteriores</button>
+        <p style="margin-left: auto; margin-right: auto;" id="pageCounter">1 - 1</p>
+        <button id="botao-proxima" style="margin-left: auto;">Próximas Vagas</button>
+    </div>
+  </section>
+
+  <footer>
+    <p style="color: #999;">Esta página tem todos os direitos reservados de © 2018 FastJobNet. Todos os usuários devem concordar com os <a href="/termos" target="_blank">termos de uso</a>.</p>
+  </footer>
+
+  <script src="../scripts/index.js"></script>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search)
+    
+    const urlId = urlParams.get("id");
+    console.log(urlId)
+    if (urlId) {
+      alert("Insira um ID válido na URL");
+    } 
+
+    const urlKey = urlParams.get("key")
+    if (urlKey) {
+      alert("Insira uma Chave válida na URL");
+    }
+  </script>
+</body>
+</html>

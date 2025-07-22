@@ -1,0 +1,803 @@
+[
+  {
+    "id": 1,
+    "titulo": "Desenvolvedor Frontend",
+    "empresa": "Tech Solutions",
+    "local": "Remoto",
+    "descricao": "Desenvolver interfaces modernas usando JavaScript e frameworks atuais.",
+    "salario": 5500,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 2,
+    "titulo": "Analista de Segurança da Informação",
+    "empresa": "SecureCorp",
+    "local": "São Paulo, SP",
+    "descricao": "Monitorar e responder a incidentes, implementar políticas de segurança.",
+    "salario": 7000,
+    "tipoContrato": "PJ"
+  },
+  {
+    "id": 3,
+    "titulo": "Designer UX/UI",
+    "empresa": "Creative Studio",
+    "local": "Rio de Janeiro, RJ",
+    "descricao": "Criar designs intuitivos e centrados no usuário para aplicativos web e mobile.",
+    "salario": 4800,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 4,
+    "titulo": "Engenheiro de Dados",
+    "empresa": "DataWorks",
+    "local": "Belo Horizonte, MG",
+    "descricao": "Construir pipelines e arquiteturas para processamento de dados em larga escala.",
+    "salario": 9000,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 5,
+    "titulo": "Gerente de Projetos",
+    "empresa": "Innovatech",
+    "local": "Curitiba, PR",
+    "descricao": "Gerenciar equipes e garantir entrega de projetos dentro do prazo e orçamento.",
+    "salario": 8500,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 6,
+    "titulo": "Assistente Administrativo",
+    "empresa": "FinancePlus",
+    "local": "Fortaleza, CE",
+    "descricao": "Apoiar rotinas administrativas e organização de documentos.",
+    "salario": 2500,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 7,
+    "titulo": "Especialista em Marketing Digital",
+    "empresa": "WebMarket",
+    "local": "Recife, PE",
+    "descricao": "Criar e executar campanhas digitais, analisar resultados e otimizar estratégias.",
+    "salario": 6000,
+    "tipoContrato": "PJ"
+  },
+  {
+    "id": 8,
+    "titulo": "Técnico de Suporte",
+    "empresa": "InfoTech",
+    "local": "Porto Alegre, RS",
+    "descricao": "Prestar suporte técnico aos clientes e solucionar problemas relacionados a software.",
+    "salario": 3200,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 9,
+    "titulo": "Desenvolvedor Backend",
+    "empresa": "CodeFactory",
+    "local": "Remoto",
+    "descricao": "Desenvolver APIs REST e sistemas escaláveis usando Node.js e bancos de dados SQL.",
+    "salario": 5800,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 10,
+    "titulo": "Analista Financeiro",
+    "empresa": "MoneyCorp",
+    "local": "São Paulo, SP",
+    "descricao": "Analisar demonstrações financeiras e apoiar decisões estratégicas.",
+    "salario": 7200,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 11,
+    "titulo": "Engenheiro de Software",
+    "empresa": "NextGen Solutions",
+    "local": "Campinas, SP",
+    "descricao": "Projetar e desenvolver software para sistemas distribuídos e aplicações em nuvem.",
+    "salario": 9500,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 12,
+    "titulo": "Analista de RH",
+    "empresa": "PeopleFirst",
+    "local": "São Paulo, SP",
+    "descricao": "Gerenciar processos de recrutamento, seleção e desenvolvimento organizacional.",
+    "salario": 5200,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 13,
+    "titulo": "Consultor de Vendas",
+    "empresa": "SalesPro",
+    "local": "Belo Horizonte, MG",
+    "descricao": "Atuar na prospecção e atendimento de clientes, apresentando soluções comerciais.",
+    "salario": 4500,
+    "tipoContrato": "PJ"
+  },
+  {
+    "id": 14,
+    "titulo": "Desenvolvedor Mobile",
+    "empresa": "AppMasters",
+    "local": "Rio de Janeiro, RJ",
+    "descricao": "Desenvolver aplicativos móveis para Android e iOS com foco em performance e UX.",
+    "salario": 7000,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 15,
+    "titulo": "Coordenador de Logística",
+    "empresa": "LogiFast",
+    "local": "Curitiba, PR",
+    "descricao": "Gerenciar operações logísticas, otimizar rotas e controlar estoque.",
+    "salario": 6800,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 16,
+    "titulo": "Analista de BI",
+    "empresa": "Insight Analytics",
+    "local": "São Paulo, SP",
+    "descricao": "Analisar dados e criar dashboards para suportar decisões estratégicas.",
+    "salario": 7300,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 17,
+    "titulo": "Especialista em SEO",
+    "empresa": "RankUp",
+    "local": "Recife, PE",
+    "descricao": "Otimizar sites para mecanismos de busca e aumentar a visibilidade orgânica.",
+    "salario": 4800,
+    "tipoContrato": "PJ"
+  },
+  {
+    "id": 18,
+    "titulo": "Designer Gráfico",
+    "empresa": "Creative Studio",
+    "local": "Rio de Janeiro, RJ",
+    "descricao": "Criar materiais visuais para campanhas, redes sociais e branding.",
+    "salario": 4200,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 19,
+    "titulo": "Analista de Suporte Técnico",
+    "empresa": "HelpDesk",
+    "local": "Porto Alegre, RS",
+    "descricao": "Atender chamados técnicos e resolver problemas relacionados a hardware e software.",
+    "salario": 3000,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 20,
+    "titulo": "Engenheiro de QA",
+    "empresa": "QualityFirst",
+    "local": "Campinas, SP",
+    "descricao": "Desenvolver e executar testes automatizados e garantir qualidade de software.",
+    "salario": 6500,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 21,
+    "titulo": "Analista de Marketing",
+    "empresa": "MarketMinds",
+    "local": "São Paulo, SP",
+    "descricao": "Planejar campanhas, analisar resultados e melhorar estratégias de marketing.",
+    "salario": 5200,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 22,
+    "titulo": "Assistente de Atendimento",
+    "empresa": "CustomerFirst",
+    "local": "Fortaleza, CE",
+    "descricao": "Atender clientes, tirar dúvidas e resolver problemas.",
+    "salario": 2300,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 23,
+    "titulo": "Desenvolvedor Full Stack",
+    "empresa": "CodeFactory",
+    "local": "Remoto",
+    "descricao": "Desenvolver aplicações web completas, front e backend, usando JavaScript e Node.js.",
+    "salario": 7000,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 24,
+    "titulo": "Gerente Comercial",
+    "empresa": "SalesPro",
+    "local": "São Paulo, SP",
+    "descricao": "Gerenciar equipe de vendas e estratégias comerciais.",
+    "salario": 9500,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 25,
+    "titulo": "Analista de Dados",
+    "empresa": "DataWorks",
+    "local": "Belo Horizonte, MG",
+    "descricao": "Coletar, tratar e analisar dados para gerar insights de negócio.",
+    "salario": 6000,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 26,
+    "titulo": "Técnico em Manutenção",
+    "empresa": "Tech Solutions",
+    "local": "Recife, PE",
+    "descricao": "Realizar manutenção preventiva e corretiva em equipamentos eletrônicos.",
+    "salario": 3500,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 27,
+    "titulo": "Consultor de TI",
+    "empresa": "Innovatech",
+    "local": "Curitiba, PR",
+    "descricao": "Prestar consultoria em soluções tecnológicas para clientes corporativos.",
+    "salario": 8000,
+    "tipoContrato": "PJ"
+  },
+  {
+    "id": 28,
+    "titulo": "Analista Contábil",
+    "empresa": "FinancePlus",
+    "local": "São Paulo, SP",
+    "descricao": "Realizar análises contábeis e conciliações financeiras.",
+    "salario": 4800,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 29,
+    "titulo": "Desenvolvedor Python",
+    "empresa": "NextGen Solutions",
+    "local": "Campinas, SP",
+    "descricao": "Desenvolver aplicações backend em Python e integrar APIs.",
+    "salario": 7500,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 30,
+    "titulo": "Especialista em Redes",
+    "empresa": "InfoTech",
+    "local": "Porto Alegre, RS",
+    "descricao": "Configurar e gerenciar redes de computadores e segurança.",
+    "salario": 6700,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 31,
+    "titulo": "Coordenador de Marketing",
+    "empresa": "WebMarket",
+    "local": "Recife, PE",
+    "descricao": "Planejar e executar estratégias de marketing digital.",
+    "salario": 7200,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 32,
+    "titulo": "Assistente Financeiro",
+    "empresa": "MoneyCorp",
+    "local": "São Paulo, SP",
+    "descricao": "Auxiliar nas rotinas financeiras e controle de contas.",
+    "salario": 2800,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 33,
+    "titulo": "Desenvolvedor Java",
+    "empresa": "CodeFactory",
+    "local": "Remoto",
+    "descricao": "Desenvolver aplicações backend em Java, com foco em escalabilidade.",
+    "salario": 7200,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 34,
+    "titulo": "Analista de Projetos",
+    "empresa": "Innovatech",
+    "local": "Curitiba, PR",
+    "descricao": "Apoiar gestão de projetos e análise de processos.",
+    "salario": 6200,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 35,
+    "titulo": "Consultor de Marketing",
+    "empresa": "RankUp",
+    "local": "Recife, PE",
+    "descricao": "Elaborar estratégias para otimização de presença digital.",
+    "salario": 5400,
+    "tipoContrato": "PJ"
+  },
+  {
+    "id": 36,
+    "titulo": "Técnico em Segurança do Trabalho",
+    "empresa": "SecureCorp",
+    "local": "São Paulo, SP",
+    "descricao": "Garantir cumprimento das normas de segurança no ambiente de trabalho.",
+    "salario": 4000,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 37,
+    "titulo": "Designer de Produto",
+    "empresa": "Creative Studio",
+    "local": "Rio de Janeiro, RJ",
+    "descricao": "Desenvolver conceitos e protótipos de produtos inovadores.",
+    "salario": 4700,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 38,
+    "titulo": "Analista de Atendimento",
+    "empresa": "CustomerFirst",
+    "local": "Fortaleza, CE",
+    "descricao": "Atender e resolver solicitações dos clientes via diversos canais.",
+    "salario": 2600,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 39,
+    "titulo": "Engenheiro de Infraestrutura",
+    "empresa": "Tech Solutions",
+    "local": "São Paulo, SP",
+    "descricao": "Planejar e implementar infraestrutura de TI segura e escalável.",
+    "salario": 8800,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 40,
+    "titulo": "Analista de Compliance",
+    "empresa": "FinancePlus",
+    "local": "São Paulo, SP",
+    "descricao": "Garantir conformidade regulatória e políticas internas.",
+    "salario": 6300,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 41,
+    "titulo": "Desenvolvedor Frontend Junior",
+    "empresa": "NextGen Solutions",
+    "local": "Campinas, SP",
+    "descricao": "Auxiliar no desenvolvimento de interfaces e manutenção de sistemas web.",
+    "salario": 3800,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 42,
+    "titulo": "Especialista em UX Research",
+    "empresa": "Creative Studio",
+    "local": "Rio de Janeiro, RJ",
+    "descricao": "Conduzir pesquisas com usuários para melhorar produtos digitais.",
+    "salario": 6000,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 43,
+    "titulo": "Analista de Comunicação",
+    "empresa": "MarketMinds",
+    "local": "São Paulo, SP",
+    "descricao": "Gerenciar comunicação interna e externa da empresa.",
+    "salario": 4800,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 44,
+    "titulo": "Assistente de Logística",
+    "empresa": "LogiFast",
+    "local": "Curitiba, PR",
+    "descricao": "Auxiliar no controle de estoque e processos logísticos.",
+    "salario": 2700,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 45,
+    "titulo": "Consultor Financeiro",
+    "empresa": "MoneyCorp",
+    "local": "São Paulo, SP",
+    "descricao": "Prestar consultoria em investimentos e planejamento financeiro.",
+    "salario": 8000,
+    "tipoContrato": "PJ"
+  },
+  {
+    "id": 46,
+    "titulo": "Desenvolvedor .NET",
+    "empresa": "CodeFactory",
+    "local": "Remoto",
+    "descricao": "Desenvolver aplicações utilizando .NET Core e C#.",
+    "salario": 7000,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 47,
+    "titulo": "Analista de Testes",
+    "empresa": "QualityFirst",
+    "local": "Campinas, SP",
+    "descricao": "Elaborar e executar testes manuais e automatizados.",
+    "salario": 6200,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 48,
+    "titulo": "Coordenador de RH",
+    "empresa": "PeopleFirst",
+    "local": "São Paulo, SP",
+    "descricao": "Gerenciar processos de recrutamento e desenvolvimento de talentos.",
+    "salario": 9000,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 49,
+    "titulo": "Especialista em Cloud",
+    "empresa": "Innovatech",
+    "local": "Curitiba, PR",
+    "descricao": "Planejar e implementar soluções em nuvem para clientes.",
+    "salario": 9500,
+    "tipoContrato": "PJ"
+  },
+  {
+    "id": 50,
+    "titulo": "Técnico de Redes",
+    "empresa": "InfoTech",
+    "local": "Porto Alegre, RS",
+    "descricao": "Instalar e configurar equipamentos de rede, garantindo conectividade.",
+    "salario": 4000,
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 51,
+    "titulo": "Bolsa para Estudante do Ensino Médio - Estágio",
+    "empresa": "Escola Técnica Aprender+",
+    "salario": 850,
+    "local": "Porto Alegre - RS",
+    "descricao": "Apoio em atividades administrativas e de laboratório. Estágio para estudantes do ensino médio.",
+    "tipoContrato": "Estágio"
+  },
+  {
+    "id": 52,
+    "titulo": "Político Local / Vereador",
+    "empresa": "Câmara Municipal de Florianópolis",
+    "salario": 12300,
+    "local": "Florianópolis - SC",
+    "descricao": "Mandato eletivo com participação em comissões e proposição de leis municipais.",
+    "tipoContrato": "Cargo Público"
+  },
+  {
+    "id": 53,
+    "titulo": "Enfermeira Técnica / Cuidadora",
+    "empresa": "Clínica Vida Plena",
+    "salario": 2800,
+    "local": "Curitiba - PR",
+    "descricao": "Cuidados básicos com pacientes e administração de medicamentos sob supervisão médica.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 54,
+    "titulo": "Mecânico / Técnico de Manutenção",
+    "empresa": "Oficina AutoTorque",
+    "salario": 3200,
+    "local": "Campinas - SP",
+    "descricao": "Reparo e manutenção de veículos automotores. Necessário experiência com injeção eletrônica.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 55,
+    "titulo": "Estudante universitário (TI, Arquitetura, etc.) - Estágio",
+    "empresa": "Startup InovaTech",
+    "salario": 1400,
+    "local": "São Paulo - SP",
+    "descricao": "Suporte em projetos de software e arquitetura digital. Vaga para universitários.",
+    "tipoContrato": "Estágio"
+  },
+  {
+    "id": 56,
+    "titulo": "Faxineira de hospital",
+    "empresa": "Hospital Regional do Oeste",
+    "salario": 1950,
+    "local": "Chapecó - SC",
+    "descricao": "Limpeza e desinfecção de áreas hospitalares. Turnos rotativos.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 57,
+    "titulo": "Tatuadora Autônoma",
+    "empresa": "Estúdio Ink Vibe",
+    "salario": 6000,
+    "local": "Belo Horizonte - MG",
+    "descricao": "Trabalhos artísticos personalizados em estúdio renomado. Autonomia total.",
+    "tipoContrato": "Autônomo"
+  },
+  {
+    "id": 58,
+    "titulo": "Funcionária de RH",
+    "empresa": "Grupo Omega",
+    "salario": 4200,
+    "local": "Joinville - SC",
+    "descricao": "Recrutamento, seleção e gestão de pessoal. Experiência prévia exigida.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 59,
+    "titulo": "Jovem Artista Digital",
+    "empresa": "Agência Criativa ColorPixel",
+    "salario": 3700,
+    "local": "Recife - PE",
+    "descricao": "Criação de artes digitais e assets para jogos e publicidade.",
+    "tipoContrato": "PJ"
+  },
+  {
+    "id": 60,
+    "titulo": "Babá",
+    "empresa": "Família Oliveira",
+    "salario": 2000,
+    "local": "São Bernardo do Campo - SP",
+    "descricao": "Cuidado de crianças de 2 a 6 anos, com atividades lúdicas e alimentação.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 61,
+    "titulo": "Técnico de Enfermagem",
+    "empresa": "Hospital São José",
+    "salario": 2800,
+    "local": "Porto Alegre - RS",
+    "descricao": "Assistência direta ao paciente e apoio a procedimentos médicos.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 62,
+    "titulo": "Streamer de Jogos de Terror",
+    "empresa": "Plataforma GameStream",
+    "salario": 3500,
+    "local": "Remoto",
+    "descricao": "Transmissão ao vivo jogando jogos de terror com interação constante com o público.",
+    "tipoContrato": "Freelancer"
+  },
+  {
+    "id": 63,
+    "titulo": "Pedreiro",
+    "empresa": "Construtora Nova Vida",
+    "salario": 2800,
+    "local": "Curitiba - PR",
+    "descricao": "Execução de obras civis e reformas residenciais e comerciais.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 64,
+    "titulo": "Ator de Teatro",
+    "empresa": "Companhia Cênica Prime",
+    "salario": 3200,
+    "local": "Rio de Janeiro - RJ",
+    "descricao": "Atuação em peças teatrais e participação em projetos culturais.",
+    "tipoContrato": "Freelancer"
+  },
+  {
+    "id": 65,
+    "titulo": "Bibliotecária",
+    "empresa": "Biblioteca Central de Santos",
+    "salario": 1800,
+    "local": "Santos - SP",
+    "descricao": "Atendimento ao público e organização de acervo. Trabalho em meio período.",
+    "tipoContrato": "Temporário"
+  },
+  {
+    "id": 66,
+    "titulo": "Profissional de TI Corporativo",
+    "empresa": "Corporation Tech Solutions",
+    "salario": 7500,
+    "local": "São Paulo - SP",
+    "descricao": "Suporte e manutenção de sistemas corporativos e infraestrutura de rede.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 67,
+    "titulo": "Costureira",
+    "empresa": "Ateliê Moda & Arte",
+    "salario": 2800,
+    "local": "Campinas - SP",
+    "descricao": "Confecção e ajustes de roupas sob medida.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 68,
+    "titulo": "Gestora de Mercado",
+    "empresa": "Mercado Central",
+    "salario": 4000,
+    "local": "Belo Horizonte - MG",
+    "descricao": "Gerenciamento geral do estabelecimento, compras e atendimento ao cliente.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 69,
+    "titulo": "Detetive Civil",
+    "empresa": "Agência de Investigações Sigma",
+    "salario": 5200,
+    "local": "São Paulo - SP",
+    "descricao": "Investigação particular, levantamento de informações e análises de casos.",
+    "tipoContrato": "PJ"
+  },
+  {
+    "id": 70,
+    "titulo": "Cozinheira de Restaurante",
+    "empresa": "Restaurante Sabor Caseiro",
+    "salario": 2600,
+    "local": "Fortaleza - CE",
+    "descricao": "Preparação de refeições e gerenciamento da cozinha.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 71,
+    "titulo": "Professor (Filosofia, História ou Biologia)",
+    "empresa": "Escola Estadual Monteiro Lobato",
+    "salario": 4300,
+    "local": "Manaus - AM",
+    "descricao": "Ministrar aulas e preparar material didático para o ensino médio.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 72,
+    "titulo": "Artista de Rua",
+    "empresa": "Autônomo",
+    "salario": 2000,
+    "local": "São Paulo - SP",
+    "descricao": "Performances artísticas e apresentações em espaços públicos.",
+    "tipoContrato": "Autônomo"
+  },
+  {
+    "id": 73,
+    "titulo": "DJ de Festas",
+    "empresa": "Evento Underground",
+    "salario": 3500,
+    "local": "Rio de Janeiro - RJ",
+    "descricao": "Mixagem musical e organização de eventos não convencionais.",
+    "tipoContrato": "Freelancer"
+  },
+  {
+    "id": 74,
+    "titulo": "Caminhoneiro",
+    "empresa": "Transportadora Rápida",
+    "salario": 4200,
+    "local": "Curitiba - PR",
+    "descricao": "Transporte de cargas rodoviárias em rotas regionais e interestaduais.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 75,
+    "titulo": "Advogado Criminalista",
+    "empresa": "Escritório Silva & Associados",
+    "salario": 8500,
+    "local": "São Paulo - SP",
+    "descricao": "Atuação em processos criminais e defesa de clientes em tribunais.",
+    "tipoContrato": "PJ"
+  },
+  {
+    "id": 76,
+    "titulo": "Instrutora de Yoga e Meditação",
+    "empresa": "Centro Equilíbrio",
+    "salario": 3000,
+    "local": "Belo Horizonte - MG",
+    "descricao": "Aulas de yoga, meditação e técnicas de relaxamento.",
+    "tipoContrato": "Autônomo"
+  },
+  {
+    "id": 77,
+    "titulo": "Técnico em Refrigeração",
+    "empresa": "Clima Frio Ltda.",
+    "salario": 4000,
+    "local": "Porto Alegre - RS",
+    "descricao": "Instalação e manutenção de sistemas de ar-condicionado e refrigeração.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 78,
+    "titulo": "Bombeiro Aposentado",
+    "empresa": "Corpo de Bombeiros",
+    "salario": 3200,
+    "local": "Rio de Janeiro - RJ",
+    "descricao": "Apoio em ações comunitárias e treinamentos de prevenção.",
+    "tipoContrato": "Temporário"
+  },
+  {
+    "id": 79,
+    "titulo": "Astronauta",
+    "empresa": "Agência Espacial Brasileira",
+    "salario": 16000,
+    "local": "Brasília - DF",
+    "descricao": "Treinamento e participação em missões espaciais nacionais e internacionais.",
+    "tipoContrato": "Contrato Temporário"
+  },
+  {
+    "id": 80,
+    "titulo": "Instrutor de Defesa Pessoal",
+    "empresa": "Academia Corpo Forte",
+    "salario": 3500,
+    "local": "São Paulo - SP",
+    "descricao": "Aulas e treinamentos em técnicas de defesa pessoal para todas as idades.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 81,
+    "titulo": "Garimpeiro",
+    "empresa": "Cooperativa Aurífera do Norte",
+    "salario": 2500,
+    "local": "Pará - PA",
+    "descricao": "Extração manual de minerais e metais preciosos, trabalho em campo.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 82,
+    "titulo": "Atendente Comercial",
+    "empresa": "Loja Fácil",
+    "salario": 1800,
+    "local": "Fortaleza - CE",
+    "descricao": "Atendimento ao cliente, vendas e organização da loja.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 83,
+    "titulo": "Mineiro",
+    "empresa": "Mineração Vale",
+    "salario": 3900,
+    "local": "Minas Gerais - MG",
+    "descricao": "Operação de máquinas e equipamentos na extração mineral.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 84,
+    "titulo": "Diplomata",
+    "empresa": "Ministério das Relações Exteriores",
+    "salario": 13500,
+    "local": "Brasília - DF",
+    "descricao": "Atuação em negociações internacionais e representação do Brasil no exterior.",
+    "tipoContrato": "Cargo Público"
+  },
+  {
+    "id": 85,
+    "titulo": "Arqueólogo",
+    "empresa": "Instituto Nacional de Pesquisas",
+    "salario": 6800,
+    "local": "Salvador - BA",
+    "descricao": "Pesquisa e escavação de sítios arqueológicos, análise de artefatos.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 86,
+    "titulo": "Intérprete",
+    "empresa": "Agência Global Translate",
+    "salario": 4500,
+    "local": "São Paulo - SP",
+    "descricao": "Interpretação simultânea e tradução em eventos e reuniões.",
+    "tipoContrato": "PJ"
+  },
+  {
+    "id": 87,
+    "titulo": "Agricultor",
+    "empresa": "Fazenda São Jorge",
+    "salario": 3000,
+    "local": "Paraná - PR",
+    "descricao": "Cultivo e colheita de produtos agrícolas, manejo do solo e irrigação.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 88,
+    "titulo": "Apicultor",
+    "empresa": "Cooperativa de Mel do Sul",
+    "salario": 2700,
+    "local": "Rio Grande do Sul - RS",
+    "descricao": "Criação e manejo de colmeias para produção de mel e derivados.",
+    "tipoContrato": "CLT"
+  },
+  {
+    "id": 89,
+    "titulo": "████████████████",
+    "empresa": "M.E.G.",
+    "salario": 9348844,
+    "local": "Backrooms - Nível 1",
+    "descricao": "ID da comunicação: 3692baa474d39e63f69ed504663db87f, Contrado = Chave de acesso, Salário = n° da tentativa",
+    "tipoContrato": "c6d6bd7ebf806f43c76acc3681703b81"
+  }
+]
