@@ -34,6 +34,8 @@ function RenderVagas() {
 
         const vagasVisiveis = vagas.slice((paginaAtual-1) * vagasPerPage, paginaAtual*vagasPerPage)
         
+        removerVagasNaLista()
+
         vagasVisiveis.forEach(vaga => {
             const li = document.createElement('li');
             
@@ -70,7 +72,14 @@ function adicionarVagaNaLista(vaga) {
 
     option.id = `vaga-${vaga.id}`
     option.text = `${vaga.titulo} - ${vaga.empresa}`;
+    option.setAttribute("dinamic", "true");
     vagaId.appendChild(option);
+}
+
+function removerVagasNaLista() {
+    const vagaId = document.getElementById("vaga");
+    const dinamicOptions = vagaId.querySelectorAll('option[dinamic="true"]');
+    dinamicOptions.forEach(option => option.remove());
 }
 
 // Lidar com envio do formulário
@@ -114,14 +123,20 @@ function init() {
     const botaoProxima = document.getElementById("botao-proxima");
     const botaoAnterior = document.getElementById("botao-anterior");
 
+    let isRendering = true;
     botaoProxima.addEventListener("click", () => {
-        GetMaxVagas().then((res) => {
+        if (isRendering) {
+            isRendering = false;
+            GetMaxVagas().then((res) => {
             if (paginaAtual + 1 <= Math.ceil(res / vagasPerPage)) {
                 paginaAtual += 1;
                 RenderVagas();
             }
+            setTimeout(() => {
+                isRendering = true;
+            }, 20);
         });
-        
+        }
     });
 
     botaoAnterior.addEventListener("click", () => {
