@@ -82,7 +82,6 @@ function removerVagasNaLista() {
     dinamicOptions.forEach(option => option.remove());
 }
 
-// Lidar com envio do formulário
 function tratarEnvioFormulario(event) {
     event.preventDefault();
 
@@ -96,9 +95,6 @@ function tratarEnvioFormulario(event) {
         return;
     }
 
-    // Aqui você pode enviar esses dados para um backend via fetch ou outro método
-
-    // Mostrar mensagem de sucesso
     fetch("/api/vagas")
     .then(response => {
         if (!response.ok) {
@@ -117,7 +113,6 @@ function tratarEnvioFormulario(event) {
     })    
 }
 
-// Inicializar a página
 function init() {
     const form = document.getElementById("form-candidatura");
     const botaoProxima = document.getElementById("botao-proxima");
